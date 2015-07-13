@@ -1,0 +1,25 @@
+{
+  "name": "Sketch Measurements",
+  "description": "",
+  "author": "Zhifeng Koh",
+  "version": 0.1,
+  "identifier": "com.zhifengkoh.sketch.sketch-measurements",
+  "updateURL": "https://zhifengkoh.github.io/sketch-measurements",
+  "compatibleVersion": "3.3.2",
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Measure Bounding Box",
+      "identifier": "Measure_bounding_box",
+      "shortcut": "",
+      "script": "measure_bounding_box.sketchscript",
+      "handler": "onRun"
+    }
+  ],
+  "menu": {
+    "items": [
+      "measure_bounding_box"
+    ],
+    "isRoot": "true"
+  }
+}
